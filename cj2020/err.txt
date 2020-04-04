@@ -1,0 +1,992 @@
+Read 100, 10
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6
+Done sending
+Solver sending: 7
+Done sending
+Solver sending: 8
+Done sending
+Solver sending: 9
+Done sending
+Solver sending: 10
+Done sending
+Solver sending: 1
+Done sending
+Solver sending: 2
+Done sending
+Solver sending: 3
+Done sending
+Solver sending: 4
+Done sending
+Solver sending: 5
+Done sending
+Solver sending: 6

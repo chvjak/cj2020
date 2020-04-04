@@ -1,0 +1,60 @@
+judge: Contestant input: 1
+judge: Negating
+judge: Result: 10001111011000001110
+judge: 1
+judge: Contestant input: 20
+judge: 0
+judge: Contestant input: 2
+judge: 0
+judge: Contestant input: 19
+judge: 1
+judge: Contestant input: 3
+judge: 0
+judge: Contestant input: 18
+judge: 1
+judge: Contestant input: 4
+judge: 0
+judge: Contestant input: 17
+judge: 1
+judge: Contestant input: 5
+judge: 1
+judge: Contestant input: 16
+judge: 0
+judge: Contestant input: 5
+judge: Mirroring
+judge: Result: 01110000011011110001
+judge: 0
+judge: Contestant input: 6
+judge: 0
+judge: Contestant input: 15
+judge: 1
+judge: Contestant input: 7
+judge: 0
+judge: Contestant input: 14
+judge: 1
+judge: Contestant input: 8
+judge: 0
+judge: Contestant input: 13
+judge: 1
+judge: Contestant input: 9
+judge: 0
+judge: Contestant input: 12
+judge: 0
+judge: Contestant input: 10
+judge: 1
+judge: Contestant input: 9
+judge: Mirroring
+judge: Negating
+judge: Result: 01110000100111110001
+judge: 1
+judge: Contestant input: 8
+judge: 0
+judge: Contestant input: 11
+judge: 0
+judge: Contestant input: 01110000110111110001
+judge: Case #86 fails:
+judge: Wrong answer: contestant input 01110000110111110001, but answer is 01110000100111110001.
+judge: N
+
+01110 000 1101 111 10001, but answer is 
+01110 000 1001 111 10001.
