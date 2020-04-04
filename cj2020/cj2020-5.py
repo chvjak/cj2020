@@ -5,16 +5,24 @@ def neg(cb):
     return "0" if cb == "1" else "1"
 
 class MyJudge:
-    def __init__(self, _bits):
+    def __init__(self, _bits, mutations = None):
         self.bits = list(_bits)
         self.i = 1
         self.response = ""
+        self.mutations = mutations
 
     def read(self, query):
         if len(str(query)) < 3:
             if self.i % 10 == 1:
-                self.mirror()
-                self.negate()
+                if self.mutations is not None:
+                    if "m" in self.mutations[self.i] :
+                        self.mirror()
+                    if "n" in self.mutations[self.i] :
+                        self.negate()
+
+                else:
+                    self.mirror()
+                    self.negate()
 
             self.response = self.bits[int(query) - 1]
             self.i += 1
@@ -45,7 +53,9 @@ DEBUG = False
 #JUDGE = MyJudge("1111100000")
 #JUDGE = MyJudge("11111000001111100001")
 #JUDGE = MyJudge("11111101011110110111")
-JUDGE = MyJudge("01110000100111110001")
+#JUDGE = MyJudge("01110000100111110001")
+#JUDGE = MyJudge("00000000000000000000")
+JUDGE = MyJudge("10001111011000001110", {1:"", 11:"m", 21:"mn"})
 
 from collections import defaultdict
 import sys
@@ -56,29 +66,6 @@ def Log(msg):
     if DEBUG:
         print(msg, file=ferr)
         ferr.flush()
-
-def send(msg):
-    Log("Sending: {0}".format(msg))
-
-    if DEBUG:
-        JUDGE.read(msg)
-    else:
-        print(msg)
-        sys.stdout.flush()
-    
-    Log("Done sending")
-
-def read():
-    Log("Reading response")
-
-    if DEBUG:
-        msg = JUDGE.send()
-    else:
-        msg = f.readline().strip()
-
-    Log("Read response {0}".format(msg))
-
-    return msg 
 
 class JudgeClient:
     def __init__(self):
@@ -108,30 +95,38 @@ class JudgeClient:
 
         return msg 
 
-class ChangeDetector:
-    def __init__(self):
+class MutationDetector:
+    def __init__(self, jc, res):
         self.sym_ix = -1
         self.sym_val = -1
 
         self.asym_ix = -1
         self.asym_val = -1
 
-    def detect_markers(self, res, b):
-        B = len(res)
-        if res[b - 1] == res[B - b]:
+        self.res = res
+        self.jc = jc
+
+    def detect_markers(self, b):
+        B = len(self.res)
+        if self.res[b - 1] == self.res[B - b]:
             self.sym_ix = b
-            self.sym_val = res[b - 1]
+            self.sym_val = self.res[b - 1]
         else:
             self.asym_ix = b
-            self.asym_val = res[b - 1]
+            self.asym_val = self.res[b - 1]
 
-    def detect_transformations(self, jc, res, b):
-        B = len(res)
-        if jc.i % 10 == 0 and b <= B // 2:
+    def detect_transformations(self, b):
+        B = len(self.res)
+        if self.jc.i % 10 == 9:
+            #dummy read
+            self.jc.send(b)
+            sink = self.jc.read()
+
+        if self.jc.i % 10 == 0 and b <= B // 2:
             # on request 11, 21, ... analyse sym & asym
             if self.sym_ix != -1:
-                jc.send(self.sym_ix)
-                new_sym_val = read()
+                self.jc.send(self.sym_ix)
+                new_sym_val = self.jc.read()
 
                 if new_sym_val != self.sym_val:
                     Log("Negation detected")
@@ -139,28 +134,38 @@ class ChangeDetector:
                     self.asym_val = neg(self.asym_val)
                     #do negate
                     for j in range(b):
-                        res[j] = neg(res[j])
-                        res[B - j - 1] = neg(res[B - j - 1])
+                        self.res[j] = neg(self.res[j])
+                        self.res[B - j - 1] = neg(self.res[B - j - 1])
+
+                    ra = "".join([str(x) for x in self.res])
+                    re = "".join(JUDGE.bits)
+                    Log("Status Eq?: {0},  Exp: {1}, Act: {2}".format(ra == re, re, ra))
 
             if self.asym_ix != -1:
-                jc.send(self.asym_ix)
-                new_asym_val = read()
+                self.jc.send(self.asym_ix)
+                new_asym_val = self.jc.read()
 
                 if new_asym_val != self.asym_val:
                     Log("Mirroring detected")
                     self.asym_val = neg(self.asym_val)
                     #do mirror, sym might be skipped
                     for j in range(b):
-                        res[j], res[B - j - 1] = res[B - j - 1], res[j]
+                        self.res[j], self.res[B - j - 1] = self.res[B - j - 1], self.res[j]
+
+                    ra = "".join([str(x) for x in self.res])
+                    re = "".join(JUDGE.bits)
+                    Log("Status Eq?: {0},  Exp: {1}, Act: {2}".format(ra == re, re, ra))
+
 
 Log("Started solver")
 T, B = [int(x) for x in f.readline().split(" ")]
 Log("Read {0}, {1}".format(T, B))
 
-jc = JudgeClient()
-
 for t in range(T):
     res = [-1] * B
+
+    jc = JudgeClient()
+    change_detector = MutationDetector(jc, res)
 
     b = 1
     sym_ix = -1
@@ -169,83 +174,19 @@ for t in range(T):
     asym_ix = -1
     asym_val = -1
 
-    i = 0
     while b <= B // 2:
-        send(b)
-        i += 1
-        res[b - 1] = read()
+        jc.send(b)
+        res[b - 1] = jc.read()
 
-        if i % 10 == 0 and b <= B // 2:
-            # on request 11, 21, ... analyse sym & asym
-            if sym_ix != -1:
-                send(sym_ix)
-                i += 1
-                new_sym_val = read()
+        jc.send(B - b + 1)
+        res[B - b] = jc.read()
 
-                if new_sym_val != sym_val:
-                    Log("Negation detected")
-                    sym_val = neg(sym_val)
-                    asym_val = neg(asym_val)
-                    #do negate
-                    for j in range(b):
-                        res[j] = neg(res[j])
-                        res[B - j - 1] = neg(res[B - j - 1])
-
-            if asym_ix != -1:
-                send(asym_ix)
-                i += 1
-                new_asym_val = read()
-
-                if new_asym_val != asym_val:
-                    Log("Mirroring detected")
-                    asym_val = neg(asym_val)
-                    #do mirror, sym might be skipped
-                    for j in range(b):
-                        res[j], res[B - j - 1] = res[B - j - 1], res[j]
-
-        send(B - b + 1)
-        i += 1
-        res[B - b] = read()
-
-        # detect sym & asym
-        if res[b - 1] == res[B - b]:
-            sym_ix = b
-            sym_val = res[b - 1]
-        else:
-            asym_ix = b
-            asym_val = res[b - 1]
-
-        if i % 10 == 0 and b <= B // 2:
-            # on request 11, 21, ... analyse sym & asym
-            if sym_ix != -1:
-                send(sym_ix)
-                i += 1
-                new_sym_val = read()
-
-                if new_sym_val != sym_val:
-                    Log("Negation detected")
-                    sym_val = neg(sym_val)
-                    asym_val = neg(asym_val)
-                    #do negate
-                    for j in range(b):
-                        res[j] = neg(res[j])
-                        res[B - j - 1] = neg(res[B - j - 1])
-
-            if asym_ix != -1:
-                send(asym_ix)
-                i += 1
-                new_asym_val = read()
-
-                if new_asym_val != asym_val:
-                    Log("Mirroring detected")
-                    asym_val = neg(asym_val)
-                    #do mirror
-                    for j in range(b):
-                        res[j], res[B - j - 1] = res[B - j - 1], res[j]
+        change_detector.detect_markers(b)
+        change_detector.detect_transformations(b)
 
         b += 1
 
 
-    send("".join(res))
-    response = read()
+    jc.send("".join(res))
+    response = jc.read()
 
